@@ -49,6 +49,7 @@ async function setVideo(video) {
         return;
     }
     else{
+        console.log(await getLanguageList("spUNpyF58BY"));
         if(player === undefined) {
             player = await createYTPlayer("MyPlayer", WIDTH,HIGHT, video);
             //console.log(await getLanguageList(video));
