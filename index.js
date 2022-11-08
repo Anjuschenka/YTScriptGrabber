@@ -50,7 +50,7 @@ async function setVideo(video) {
     }
     else{
         console.log(await getLanguageList("spUNpyF58BY"));
-        console.log(await loadTranscript("spUNpyF58BY", "en"));
+        console.log(await loadTranscript("spUNpyF58BY", "English"));
         if(player === undefined) {
             player = await createYTPlayer("MyPlayer", WIDTH,HIGHT, video);
             //console.log(await getLanguageList(video));
